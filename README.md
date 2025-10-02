@@ -28,4 +28,10 @@ I hope this setup can help others setup a secure compute system at home. Below i
   * Hardware: Raspberry Pi 5 with 8GB RAM
 * Main machine (name: minibeast)
     * Role: mainly the compute machine
-    * GPU RTX 4090 
+    * GPU RTX 4090
+    * Memory 96GB
+    * SSD 4TB
+* Dedicated NAS
+    * WD Western Digital My Cloud
+    * 4TB
+    * Copied 3 times accross the network onto SAMBA and on Minibeast via [FreeFileSync](https://freefilesync.org/)
