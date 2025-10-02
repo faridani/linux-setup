@@ -2,7 +2,7 @@ I hope this setup can help others setup a secure compute system at home. Below i
 
 * Main Gateway Computer (name: middlebeast)
   * Role: this is my gateway to our local network. It serves as the following
-     * VPN server through tailscale
+     * VPN server through SoftEther (you need to open 3 ports on eero and add this machine as a reservation to get a static interal IP)
      * Secondary NAS backup
      * Our main RDP server through RDP (Windows App on ipad) and Cinnamon
      * Dynamic DNS
