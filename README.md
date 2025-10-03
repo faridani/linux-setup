@@ -50,7 +50,8 @@ I hope this setup helps others build a secure compute system at home. Below is w
   * **Role**: Primary compute machine  
   * GPU: RTX 4090  
   * Memory: 96GB  
-  * Storage: 4TB SSD  
+  * Storage: 4TB SSD
+  * UPS: CyberPower 1500VA/900Watts ($150) 
 
 * **Dedicated NAS**  
   * WD My Cloud – 4TB  
