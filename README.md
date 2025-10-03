@@ -5,6 +5,7 @@ I hope this setup helps others build a secure compute system at home. Below is w
 * **Main Gateway Computer (name: middlebeast)**  
   * **Role**: Gateway to the local network. It serves as:  
     * **VPN Server** (via SoftEther)  
+      * You need a VPN server if yoi are traveling a lot and need to log into your bank or be able to connect to your home computers from remote. By setting up a VPN server you can put any computer from anywhere on your network and it is significantly easier than ssh tunneling or openning variois ports to different computers on your router.
       * Requires opening 3 ports on Eero and assigning a static internal IP reservation.  
       * ChatGPT wrote all the shell code for this.  
     * **Secondary NAS Backup** (16TB of loud HDD stored in a separate storage room)  
