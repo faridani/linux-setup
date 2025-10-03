@@ -47,7 +47,8 @@ I hope this setup helps others build a secure compute system at home. Below is w
       * Extend use to 3D printing as well.  
 
 * **Main Machine (name: minibeast)**  
-  * **Role**: Primary compute machine  
+  * **Role**: Primary compute machine
+  * Win 11 Pro (because I also play flight simulator on this via a Logitech Extreme 3D Pro Joystick)
   * GPU: RTX 4090  
   * Memory: 96GB  
   * Storage: 4TB SSD
