@@ -83,4 +83,4 @@ For remote access, I use the **Windows** app on iPad and iPhone to connect to RD
 
 # Hardware Security
 
-I have added this AirTag compatible device inside our machines for some added tracking and security: [Elevation Lab AirTag 10-Year Extended Battery Case](https://www.amazon.com/dp/B0D1LH7ZCT?ref_=pe_123509780_1038749300_t_fed_asin_title&th=1)
+I have added this AirTag compatible device inside our machines for some added tracking and security: [Elevation Lab AirTag 10-Year Extended Battery Case](https://a.co/d/hrcHcsh)
