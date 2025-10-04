@@ -7,7 +7,6 @@ I hope this setup helps others build a secure compute system at home. Below is w
 * Main Compute Machine (Win11, NVidia RTX 4090)
 * NAS (WD Personal Cloud)
 * Eero 6 Mesh Router
-* 
 
 # Hardware and Network Setup  
 
