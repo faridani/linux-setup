@@ -1,5 +1,14 @@
 I hope this setup helps others build a secure compute system at home. Below is what I use:
 
+# Our Machines 
+
+* Main gateway computer (mid range Ubuntu)
+* Print server (RP5 8GB)
+* Main Compute Machine (Win11, NVidia RTX 4090)
+* NAS (WD Personal Cloud)
+* Eero 6 Mesh Router
+* 
+
 # Hardware and Network Setup  
 
 * **Main Gateway Computer (name: middlebeast)**  
@@ -29,7 +38,8 @@ I hope this setup helps others build a secure compute system at home. Below is w
     * PCIe Wi-Fi: AX200 (no cable)  
     * Storage:  
       * SSD: 256GB (Corsair Force 3)  
-      * HDD: 16TB (Seagate Exos X16 – [datasheet](https://www.seagate.com/www-content/datasheets/pdfs/exos-x16-DS2011-1-1904US-en_US.pdf))  
+      * HDD: 16TB (Seagate Exos X16 – [datasheet](https://www.seagate.com/www-content/datasheets/pdfs/exos-x16-DS2011-1-1904US-en_US.pdf))
+    * UPS: APC Back-UPS 1500 [(BX1500M)](https://a.co/d/29o6LDk) 
 
   * **Software**:  
     * Ubuntu Linux `25.04` with Cinnamon Desktop for RDP  
@@ -38,7 +48,6 @@ I hope this setup helps others build a secure compute system at home. Below is w
     * SSH: `ssh <user>@middlebeast`  
 
   * **TODO**:
-     * Find a cheap UPS on Facebook Marketplace.
      * Find a way to connect to network via LAN from the storage room 
 
 * **Print Server (name: microbeast)**  
