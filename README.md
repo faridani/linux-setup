@@ -70,3 +70,9 @@ I hope this setup helps others build a secure compute system at home. Below is w
 iPhones and iPads connect to the network via the VPN hosted on *middlebeast*. They can also print through the AirPrint protocol using the Raspberry Pi 5 (*microbeast*).  
 
 For remote access, I use the **Windows** app on iPad and iPhone to connect to RDP even on the Linux machines. With an external mouse and keyboard on iPad, this setup works perfectly. The same configuration can also be used on my MacBook Pro to connect to the home compute system.  
+
+---
+
+# Hardware Security
+
+I have added this AirTag compatible device inside our machines for some added tracking and security: [Elevation Lab AirTag 10-Year Extended Battery Case](https://www.amazon.com/dp/B0D1LH7ZCT?ref_=pe_123509780_1038749300_t_fed_asin_title&th=1)
