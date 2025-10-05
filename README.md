@@ -11,9 +11,9 @@ I hope this setup helps others build a secure compute system at home. Below is w
 # Hardware and Network Setup  
 
 * **Main Gateway Computer (name: middlebeast)**  
-  * **Role**: This is our most stable machine. It is very efficient and does not have a lot of periferies or power hungry GPUs. As a result is is alway on and we use it for any work that requires and always-on machine. Cron jobs, scheduled code, long running scripts, VPN and other servers all run on this machine. It also has no moving part other than the two fans, no added cards (other than a wifi card), is on a UPS, and as a result it is stable and cost beneficial. This is our gateway to the local network. It serves as:  
+  * **Role**: This is our most stable machine. It is very efficient and does not have a lot of peripherals or power hungry GPUs. As a result it is always on and we use it for any work that requires an always-on machine. Cron jobs, scheduled code, long running scripts, VPN and other servers all run on this machine. No moving parts other than the two fans, no added cards (other than a wifi card), is on a UPS, and as a result it is stable and cost beneficial. This is our gateway to the local network. Is serves as the following: 
     * **VPN Server** (via SoftEther)  
-      * You need a VPN server if you are traveling a lot and need to log into your bank, or be able to connect to your home computers from remote. By setting up a VPN server you can put any computer from anywhere on your network and it is significantly easier than ssh tunneling or openning various ports to different computers on your router.
+      * You need a VPN server if you are traveling a lot and need to log into your bank, or be able to connect to your home computers from remote. By setting up a VPN server you can put any computer from anywhere on your network and it is significantly easier than ssh tunneling or opening various ports to different computers on your router.
       * Requires opening 3 ports on Eero and assigning a static internal IP reservation.  
       * ChatGPT wrote all the shell code for this.  
     * **Secondary NAS Backup** (16TB of loud HDD stored in a separate storage room)  
@@ -22,7 +22,7 @@ I hope this setup helps others build a secure compute system at home. Below is w
     * **RDP Access (Cinnamon Desktop)**  
       * Rarely used; I usually prefer SSH.  
       * RDP is not accessible externally.  
-      * Gemini-Pro 2.5 provided the setup code. Cinnamon is pleasant to work with and doesn’t slow the machine down.  
+      * Gemini-Pro 2.5 provided the setup code. Cinnamon is pleasant to work with and doesn’t noticeably slow the machine.  
     * **Dynamic DNS**  
       * Using [Duck DNS](https://www.duckdns.org/). I previously used No-IP without issues, but DuckDNS is both free and more reliable.  
       * Setup steps:  
