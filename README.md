@@ -44,9 +44,11 @@ I hope this setup helps others build a secure compute system at home. Below is w
     * Ubuntu Linux `25.04` with Cinnamon Desktop for RDP  
     * Wayland for local sessions (though currently no monitor is attached)  
     * URL: [Middlebeast](https://middlebeast:9090/)  
-    * SSH: `ssh <user>@middlebeast`  
+    * SSH: `ssh <user>@middlebeast`
+    * **NextCloud**. self-hosted local filesharing tool similar to drop box 
 
   * **TODO**:
+     * Move the nextcloud setup from the main location to a sub-domain on the localhost 
      * Find a way to connect to network via LAN from the storage room 
 
 * **Print Server (name: microbeast)**  
